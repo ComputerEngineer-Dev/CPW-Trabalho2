@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Willian Gonçalves</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <span>Willian Gonçalves</span>
+        </div>
+        
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a class="header-nav-active" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <h1 class="main-title">Entre em Contato</h1>
+        <h2 class="main-title-subtitle">Vamos conversar sobre seu projeto!</h2>
+        
+        <section class="contato-container">
+            <form id="form-contato" class="contato-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">Enviar Mensagem</button>
+            </form>
+            
+            <div class="contato-info">
+                <h3>Informações de Contato</h3>
+                <p><strong>Email:</strong> g.willian.eng@gmail.com</p>
+                <p><strong>Telefone:</strong> (11) 98765-4321</p>
+                <p><strong>Horário:</strong> Seg-Sex, 9h-18h</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: g.willian.eng@gmail.com</p>
+                <p>Telefone: (11) 98765-4321</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <p>LinkedIn: /willian-goncalves</p>
+                <p>GitHub: /ComputerEngineer-Dev</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2023 Willian Gonçalves. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
